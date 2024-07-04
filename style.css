@@ -1,0 +1,104 @@
+body {
+
+	background-color: #fabbbb;
+	display: flex;
+	flex-direction: column;
+	min-height: 90vh;
+	
+}
+
+.container {
+
+	max-width: 700px;
+	margin: 0 auto;
+	flex: 1;
+	
+}
+
+h1 {
+	
+	color: #617283;
+
+}
+
+.input-group {
+	margin-bottom: 22px;
+}
+
+.table {
+
+	width: 100%;
+	border-collapse: collapse;
+
+}
+
+.table th,
+.table td {
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding: 7px;
+	text-align: center;
+	border-bottom: 1px solid #dababa;
+}
+
+.table th {
+	background-color: #516c88;
+	color: #e9bfbf;
+}
+
+.table th:first-child,
+.table td:first-child {
+	font-weight: bold;
+}
+
+.table th:not(:first-child),
+.table td:not(:first-child) {
+	font-weight: normal;
+}
+
+.table tbody tr:hover {
+	background-color: #aaccee;
+	cursor: pointer;
+}
+
+.crypto-logo {
+	width: 25px;
+	height: 25px;
+}
+
+.btn-primary {
+	background-color: #697681;
+		border-color: #495864;
+}
+
+.btn-primary:hover {
+	background-color: #95c4e7;
+	border-color: #345269;
+}
+
+footer {
+	background-color: #415a75;
+	
+	color: #fa4a4a;
+	text-align: center;
+	margin-top: auto;
+}
+
+header h1 {
+	color: #f37f7f;
+}
+
+@media only screen and (max-width: 550px) {
+
+	.table th,
+	.table td {
+		font-size: 10px;
+		padding: 3px;
+	}
+
+	header h1 {
+		font-size: 20px;
+	}
+}
